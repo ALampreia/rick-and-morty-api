@@ -1,0 +1,11 @@
+C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Domain\obj\Debug\net8.0\RickMorty.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Domain\obj\Debug\net8.0\RickMorty.Domain.AssemblyInfoInputs.cache
+C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Domain\obj\Debug\net8.0\RickMorty.Domain.AssemblyInfo.cs
+C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Domain\obj\Debug\net8.0\RickMorty.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Domain\bin\Debug\net8.0\RickMorty.Domain.deps.json
+C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Domain\bin\Debug\net8.0\RickMorty.Domain.dll
+C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Domain\bin\Debug\net8.0\RickMorty.Domain.pdb
+C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Domain\obj\Debug\net8.0\RickMorty.Domain.dll
+C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Domain\obj\Debug\net8.0\refint\RickMorty.Domain.dll
+C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Domain\obj\Debug\net8.0\RickMorty.Domain.pdb
+C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Domain\obj\Debug\net8.0\ref\RickMorty.Domain.dll

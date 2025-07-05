@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "RickMorty.Domain/1.0.0": {
+        "runtime": {
+          "RickMorty.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RickMorty.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

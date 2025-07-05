@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{EDF1B8DC-0D67-4081-BBB5-5D8E4C817D36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{62A8F0C9-135C-4371-9DA2-35BD1740EDFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickMorty.Domain", "RickMorty.Domain\RickMorty.Domain.csproj", "{7A7D4573-15A8-43FC-8A4B-A5F2978467FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickMorty.Data", "RickMorty.Data\RickMorty.Data.csproj", "{D42AF366-B28D-4BDF-9130-2395D8C0BAE4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7A7D4573-15A8-43FC-8A4B-A5F2978467FD} = {7A7D4573-15A8-43FC-8A4B-A5F2978467FD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMorty.WebAPI", "RickAndMorty.WebAPI\RickAndMorty.WebAPI.csproj", "{E783D048-EBC9-4484-80FD-8F848C682826}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D42AF366-B28D-4BDF-9130-2395D8C0BAE4} = {D42AF366-B28D-4BDF-9130-2395D8C0BAE4}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A7D4573-15A8-43FC-8A4B-A5F2978467FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7D4573-15A8-43FC-8A4B-A5F2978467FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7D4573-15A8-43FC-8A4B-A5F2978467FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7D4573-15A8-43FC-8A4B-A5F2978467FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D42AF366-B28D-4BDF-9130-2395D8C0BAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42AF366-B28D-4BDF-9130-2395D8C0BAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42AF366-B28D-4BDF-9130-2395D8C0BAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42AF366-B28D-4BDF-9130-2395D8C0BAE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E783D048-EBC9-4484-80FD-8F848C682826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E783D048-EBC9-4484-80FD-8F848C682826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E783D048-EBC9-4484-80FD-8F848C682826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E783D048-EBC9-4484-80FD-8F848C682826}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A7D4573-15A8-43FC-8A4B-A5F2978467FD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D42AF366-B28D-4BDF-9130-2395D8C0BAE4} = {62A8F0C9-135C-4371-9DA2-35BD1740EDFD}
+		{E783D048-EBC9-4484-80FD-8F848C682826} = {EDF1B8DC-0D67-4081-BBB5-5D8E4C817D36}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B619B5E-600F-4EE2-8703-69C874EB3BA9}
+	EndGlobalSection
+EndGlobal
