@@ -1,12 +1,16 @@
 C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Data\bin\Debug\net8.0\RickMorty.Data.deps.json
 C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Data\bin\Debug\net8.0\RickMorty.Data.dll
 C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Data\bin\Debug\net8.0\RickMorty.Data.pdb
+C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Data\bin\Debug\net8.0\RickMorty.Domain.dll
+C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Data\bin\Debug\net8.0\RickMorty.Domain.pdb
+C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Data\obj\Debug\net8.0\RickMorty.Data.csproj.AssemblyReference.cache
 C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Data\obj\Debug\net8.0\RickMorty.Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Data\obj\Debug\net8.0\RickMorty.Data.AssemblyInfoInputs.cache
 C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Data\obj\Debug\net8.0\RickMorty.Data.AssemblyInfo.cs
 C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Data\obj\Debug\net8.0\RickMorty.Data.csproj.CoreCompileInputs.cache
+C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Data\obj\Debug\net8.0\RickMorty.Data.sourcelink.json
+C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Data\obj\Debug\net8.0\RickMort.6EA4ABF5.Up2Date
 C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Data\obj\Debug\net8.0\RickMorty.Data.dll
 C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Data\obj\Debug\net8.0\refint\RickMorty.Data.dll
 C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Data\obj\Debug\net8.0\RickMorty.Data.pdb
 C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Data\obj\Debug\net8.0\ref\RickMorty.Data.dll
-C:\Users\Andre_pc\Desktop\Programming\RickMorty\RickMorty\RickMorty.Data\obj\Debug\net8.0\RickMorty.Data.csproj.AssemblyReference.cache

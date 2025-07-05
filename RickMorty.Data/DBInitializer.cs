@@ -20,7 +20,7 @@ namespace RickMorty.Data
 
             var command = new[]
             {
-                @"CREATE TABLE IF NOT EXISTS Character (
+                @"CREATE TABLE IF NOT EXISTS Characters (
                     Id INTEGER PRIMARY KEY,
                     Name TEXT NOT NULL,
                     Status TEXT NOT NULL,
@@ -31,7 +31,7 @@ namespace RickMorty.Data
                         Id INTEGER PRIMARY KEY,
                         Name TEXT NOT NULL,
                         AirDate TEXT,
-                        EpisodeCode TEXT
+                        EpisodeCode TEXT,
                         Url TEXT
                 );",
                 @"CREATE TABLE IF NOT EXISTS CharacterEpisodes (

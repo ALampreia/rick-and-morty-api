@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "RickAndMorty.WebAPI.Controllers.RickMortyController",
+    "Method": "SaveCharacters",
+    "RelativePath": "api/RickMorty/characters",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RickAndMorty.WebAPI.Controllers.RickMortyController",
+    "Method": "DeleteCharacterWithEpisodes",
+    "RelativePath": "api/RickMorty/characters/{characterId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "characterId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RickAndMorty.WebAPI.Controllers.RickMortyController",
+    "Method": "GetCharacterbyStatus",
+    "RelativePath": "api/RickMorty/characters/status/{status}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
