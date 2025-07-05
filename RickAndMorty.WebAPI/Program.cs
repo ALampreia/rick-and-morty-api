@@ -1,3 +1,5 @@
+using RickMorty.Data;
+using SQLitePCL;
 
 namespace RickAndMorty.WebAPI
 {
@@ -8,14 +10,16 @@ namespace RickAndMorty.WebAPI
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
+            builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+            builder.Services.AddData();
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
-
+            Batteries.Init();
+            DBInitializer.InitializeDC(app.Configuration);
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -26,7 +30,6 @@ namespace RickAndMorty.WebAPI
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 

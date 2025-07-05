@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using RickMorty.Data.Repositories;
+using RickMorty.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace RickMorty.Data
     {
         public static IServiceCollection AddData(this IServiceCollection services)
         {
-            services.AddData<ICharacterRepository, CharacterRepository>();
+            services.AddScoped<ICharacterRepository, CharacterRepository>();
             return services;
         } 
     }
